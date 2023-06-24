@@ -1,0 +1,43 @@
+.landing{
+    display: flex;
+    /* border: 2px solid black; */
+    font-family: 'Poppins', sans-serif;
+    padding: 3rem;
+    background-color: rgb(136, 214, 242);
+    height: 74vh;
+    /* height: calc(100vh - 10rem); */
+}
+header{
+    height: 2.8rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    padding: 0.5rem;
+    padding-left: 1.2rem;
+    /* background-color: rgb(136, 214, 242); */
+
+    /* border: 2px solid green; */
+}
+.buttons{
+    float: right;
+    margin-right: 1rem;
+}
+.landing div{
+    /* border: 2px solid red; */
+    margin: 1rem;
+    padding: 1rem;
+    width: 65%;
+}
+.buttons button{
+    /* margin: 0.5rem; */
+    padding: 0.7rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color:white;
+    margin-right: 1rem;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f6915c;
+    border-radius: 5px;
+    /* font-weight: bold; */
+    border: none;
+}
