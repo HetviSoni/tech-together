@@ -1,8 +1,9 @@
 import Girl from '../assets/girl.png';
 import './landing.css';
 import React, { useState } from 'react';
-
+import { useNavigate } from 'react-router-dom';
 const Landing = () => {
+    const navigate = useNavigate();
     const [showModal, setShowModal] = useState(false);
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
@@ -45,6 +46,7 @@ const Landing = () => {
                 const data = await response.json();
                 // Handle successful login, e.g., save token in local storage
                 console.log(data);
+                navigate('/feed');
             } else {
                 // Handle login error
                 throw new Error('Login failed');

@@ -1,0 +1,40 @@
+.feed{
+    display: flex;
+
+}
+.left, .right{
+    flex:1;
+    /* background-color: #e7eaf5; */
+    background-color: #d7d8f5;
+
+}
+.middle{
+    flex: 3;
+}
+.feed div{
+    border: 2px solid green;
+}
+.feed div h3{
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.person img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 0.3rem;
+}
+.person{
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    /* border: 2px solid red; */
+
+}
+.feed ul{
+    /* border: 2px solid blue; */
+    padding-left: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
